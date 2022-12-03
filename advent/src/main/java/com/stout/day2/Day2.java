@@ -1,4 +1,4 @@
-package com.stout;
+package com.stout.day2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -74,7 +74,7 @@ public class Day2
         });
         
         int total = 0;
-		try(BufferedReader reader = new BufferedReader(new FileReader("input.txt"))) {
+		try(BufferedReader reader = new BufferedReader(new FileReader("inputs/day2-input.txt"))) {
 			String line = reader.readLine();
 
 			while (line != null) {
