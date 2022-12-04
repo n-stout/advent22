@@ -44,14 +44,14 @@ public class Scenario {
     }
     
     public static void main(String[] args) {
-        Scenario testA = new Scenario("dayXa-test.txt");
+        Scenario testA = new Scenario("inputs/dayXa-test.txt");
         testA.runScenarioA();
-        Scenario mainA = new Scenario("dayXa-input.txt");
+        Scenario mainA = new Scenario("inputs/dayXa-input.txt");
         mainA.runScenarioA();
 
-        Scenario testB = new Scenario("dayXb-test.txt");
+        Scenario testB = new Scenario("inputs/dayXb-test.txt");
         testB.runScenarioB();
-        Scenario mainB = new Scenario("dayXb-input.txt");
+        Scenario mainB = new Scenario("inputs/dayXb-input.txt");
         mainB.runScenarioB();
 
     }
