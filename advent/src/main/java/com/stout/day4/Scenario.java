@@ -80,6 +80,5 @@ public class Scenario {
         testB.runScenarioB();
         Scenario mainB = new Scenario("inputs/day4a-input.txt");
         mainB.runScenarioB();
-
     }
 }
